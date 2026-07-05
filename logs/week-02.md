@@ -11,7 +11,7 @@ The goal for this week to transition from an exploratory unstructured overview t
 
 Additional goals include identification of key literature gaps that can be targeted by project implementation and a rough outline of a novel SLAM pipeline.
 
-The stretch goal is to the notes generated the past two weeks into a literature review.
+The stretch goal is to incorpeate the notes generated these past two weeks into a single literature review.
 
 ## Approach and Implementation
 [Learning Queue]([url](https://github.com/myk-sev/DAMS-Lab-DREU-Research-Journals/blob/main/Week%202%20-%20Learning%20Queue.pdf))
