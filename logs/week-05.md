@@ -9,7 +9,9 @@ The goals for this week are:
 3. Test localization on the set of data mentioned above.
 
 ## Approach and Implementation
+With the structure of the pipeline planned and research the next step is implementation. This will be broken into pieces to ensure that a working product is produced by the end of the program. The first and most critical of these pieces will be algorithm that generated the map. Before adding any optimizations or tackling a specific research gap it is necessary to ensure that the core components work and can be fit on a mobile device.
 
+With the final approach chosen a plan will also be created on how to implement this over the coming weeks.
 
 
 ## Results
