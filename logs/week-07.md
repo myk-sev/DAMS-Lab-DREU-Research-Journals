@@ -6,8 +6,9 @@
 
 Action Goals:
 1. Core goal: Incorperate methods for imperfect text OCR matching (Levenshtein similarity).
-2. Stretch goal: Begin testing model on existing spare information environment data sets.
-3. Unreasonable stretch: Complete a baseline version of the localization app.
+2. Core goal: Test implementation on final location.
+3. Stretch goal: Begin testing model on existing spare information environment data sets.
+4. Unreasonable stretch: Complete a baseline version of the localization app.
 
 Learning Goals:
 1. Explore what scene updating/relearning could look like in a semantic environment.
