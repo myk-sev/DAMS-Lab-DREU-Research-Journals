@@ -9,8 +9,7 @@ Continue pipeline development, deal with bugs, start finalizing details on final
 Actions Goals:
 1. Core goal: Implement a text object bouding and reading pipeline. Most likely DEMETR -> EGTR.
 2. Core goal: Explore app development & libraries specific to mobile inference.
-3. Core goal: Test implementation on final location.
-4. Stretch goal: Test pipeline on mobile.
+3. Stretch goal: Test pipeline on mobile.
 
 Learning Goals:
 1. Swift app development
