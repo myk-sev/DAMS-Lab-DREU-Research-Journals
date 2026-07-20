@@ -1,6 +1,6 @@
 # Week 7
 
-**Dates:** MM-DD to MM-DD
+**Dates:** 08-03 to 08-07
 
 ## Goals
 
