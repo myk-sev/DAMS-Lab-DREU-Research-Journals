@@ -4,7 +4,10 @@
 
 ## Goals
 
-
+Action Oriented:
+1. Finish paper.
+2. Provide demo.
+3. Finalize accessibility components.
 
 ## Approach and Implementation
 
