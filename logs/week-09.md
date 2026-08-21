@@ -32,9 +32,9 @@ In the event this is not successful, an existing classroom specific training dat
 
 ## Approach and Implementation
 
+The balance between allowing room for growth in project understanding and test early/often is tricky. It was frustrating to find out that much of the research I had done on fitting improved DETR-EGTR performance onto a mobile phone had to be disregarded. Simultaneously, if I had been sure to constantly aim for a minimal viable product this could have been avoided.
 
-In progress.
-
+Strong lesson.
 
 ## Results
 
@@ -45,8 +45,18 @@ In progress.
 
 ## Notes
 
-The balance between allowing room for growth in project understanding and test early/often is tricky. It was frustrating to find out that much of the research I had done on fitting improved DETR-EGTR performance onto a mobile phone had to be disregarded. Simultaneously, if I had been sure to constantly aim for a minimal viable product this could have been avoided.
+Before discovering the issue with the lack of object overlap in the goal settings, the learning goal for the week had been focused around reviewing papers that examine alternatives for semantic scene graph (SSG) construction. These approaches improve SSQ accuracy and pose estimation through the use of intermediate representations such as 3D point clouds, segmented meshes, and depth enabled semanticly segmented pixel maps. Papers below:
 
-Strong lesson.
+SG2Loc: Sequential Visual Localization on 3D Scene Graphs  (object meshes)
+https://arxiv.org/pdf/2606.11880
+
+SceneGraphLoc: Cross-Modal Coarse Visual Localization on 3D Scene Graphs (multimodal meta embeddings - SSGs + point clouds)
+https://arxiv.org/pdf/2404.00469
+Utilized meta embedding composed from multimodal input including point clouds and images in addition to SSGs.
+ 
+Incremental 3D Semantic Scene Graph Prediction from RGB Sequences (classic SLAM 3D point clouds)
+https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Incremental_3D_Semantic_Scene_Graph_Prediction_From_RGB_Sequences_CVPR_2023_paper.pdf
+
+While it turned out that all of the above proved too computationally expensive it provided a good understand of approach in the field and the spectrum of information density available for semantic SLAM. Given the opportunity, the goal will be to instead focus on quadrics and Gaussian cloud distributions as those allow for sparse, processing light representation of the environment. These have not been used on mobile, but would be a natural fit.
 
 
