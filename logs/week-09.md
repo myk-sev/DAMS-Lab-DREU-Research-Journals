@@ -10,7 +10,9 @@ EGTR the object object relationship predictor that sits on top of the DETR objec
 
 While this issue is not spoken to in the literature, it is clear that this is why the pipeline has not been used on low visual texture environments. All attempts to extend the power of the model through sequence integration, OCR integration, and key-frame selection have no use when the core model cannot detect the necessary objects to create a map of the space.
 
-The logical and necessary addition to the literature in this scenario is the creation of a fine-tuned DETR-EGTR pair for academic corridor specific objects. To account for time left in the program, the new model will be distilled from grounded DINO annotations instead the creation of a custom data set.
+The logical and necessary addition to the literature in this scenario is the creation of a fine-tuned DETR-EGTR pair for academic corridor specific objects. To account for time left in the program, the new model will be distilled from grounded DINO annotations instead the creation of a custom human annotated data set. 
+
+Grounded DINO is a open-vocabulary vision model nearly small enough to run on mobile. With a budget of 1-2 TFLOPS, grounded DINO requires ~700GFLOPS per image and DETR-EGT requires ~300 GFLOPS. While 1-2 images per second is not enough for live guidance, mobile phones will there in the next 10 years.
 
 Sub goals:
 1. Identifying 25 objects common to academic corridors (drinking fountains, wifi routers, doors, signs, etc).
