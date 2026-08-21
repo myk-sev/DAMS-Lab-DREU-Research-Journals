@@ -24,20 +24,29 @@ Sub goals:
 In the event this is not successful, an existing classroom specific training data set has been identified. Steps 4-7 will be repeated on that dataset instead.
 
 
-~This will encompass:
-1. Core: Paper rough draft.
-2. Core: Complete app, test database results, model architecture, etc.
-3. Core: Plan demo.
-4. Stretch: Implement path finding mode for visual impairment accessibility.~
+~~This will encompass:~~
+~~1. Core: Paper rough draft.~~
+~~2. Core: Complete app, test database results, model architecture, etc.~~
+~~3. Core: Plan demo.~~
+~~4. Stretch: Implement path finding mode for visual impairment accessibility.~~
 
 ## Approach and Implementation
 
 
+In progress.
+
 
 ## Results
 
-
+1. Core objects identified:door, door_handle, stairs, handrail, elevator_door, escalator, sign, fire_extinguisher, bulletin_board, security_camera, window, wall_clock, chair, table, whiteboard, cabinet, trash_bin, water_fountain, vending_machine, poster, light_switch, ceiling_light, fire_alarm, power_outlet, map.
+2. Of 1.9m annotated Open Image v7 examples, 230k contain one of the labels above. Many labels (door, window, table) are common and not related to academics. To focus the set down to a scale affordable to run through a VLLM, label frequency was used utilized. Only images with a portion of 2 labels were kept and all with 3 labels or more. This gave a final set of 48k images.
+3. 48k images were run through OpenAI's Luna at a cost of 2 cents per 100 images. This filtered the dataset down to 11k academic focused images containing at least two of the labels above.
+4. DINO annotation complete.
 
 ## Notes
+
+The balance between allowing room for growth in project understanding and test early/often is tricky. It was frustrating to find out that much of the research I had done on fitting improved DETR-EGTR performance onto a mobile phone had to be disregarded. Simultaneously, if I had been sure to constantly aim for a minimal viable product this could have been avoided.
+
+Strong lesson.
 
 
